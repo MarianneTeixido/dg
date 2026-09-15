@@ -1,0 +1,153 @@
+{
+ "interfaz-perdida": {
+  "archivo": "interfaz-perdida.png",
+  "manos": {
+   "1": {
+    "estado": "PERDIDA",
+    "x": -0.3808,
+    "y": 0.345,
+    "altura": 0.3802,
+    "pinza": 0,
+    "radio": 0.5138420379844374,
+    "acimut": -47.82381903372729
+   },
+   "2": {
+    "estado": "PERDIDA",
+    "x": 0.3992,
+    "y": 0.2989,
+    "altura": 0.3633,
+    "pinza": 0,
+    "radio": 0.4987001604170586,
+    "acimut": 53.17605845379599
+   }
+  },
+  "rotulos": {
+   "1": "PERDIDA",
+   "2": "PERDIDA"
+  }
+ },
+ "interfaz-agarrada": {
+  "archivo": "interfaz-agarrada.png",
+  "manos": {
+   "1": {
+    "estado": "AGARRADA",
+    "x": -0.2303,
+    "y": 0.2016,
+    "altura": 0.0761,
+    "pinza": 1,
+    "radio": 0.3060729488210286,
+    "acimut": -48.80174785954228
+   },
+   "2": {
+    "estado": "AGARRADA",
+    "x": 0.2309,
+    "y": 0.2044,
+    "altura": 0.1785,
+    "pinza": 1,
+    "radio": 0.3083734262221698,
+    "acimut": 48.48372760019092
+   }
+  },
+  "pausa_s": 0.8
+ },
+ "interfaz-cuerpo": {
+  "archivo": "interfaz-cuerpo.png",
+  "manos": {
+   "1": {
+    "estado": "AGARRADA",
+    "x": -0.2282,
+    "y": 0.2227,
+    "altura": 0.076,
+    "pinza": 1,
+    "radio": 0.3188581659609802,
+    "acimut": -45.69884932312434
+   },
+   "2": {
+    "estado": "AGARRADA",
+    "x": 0.2805,
+    "y": 0.1784,
+    "altura": 0.0356,
+    "pinza": 1,
+    "radio": 0.3324256458217386,
+    "acimut": 57.5433487783233
+   }
+  }
+ },
+ "morfeo-1": {
+  "archivo": "morfeo-1.png",
+  "manos": {
+   "1": {
+    "estado": "AGARRADA",
+    "x": -0.151,
+    "y": 0.2553,
+    "altura": 0.6849,
+    "pinza": 1,
+    "radio": 0.29661269359216574,
+    "acimut": -30.60266041866387
+   },
+   "2": {
+    "estado": "AGARRADA",
+    "x": 0.0607,
+    "y": 0.2555,
+    "altura": 0.6158,
+    "pinza": 1,
+    "radio": 0.26261138589177735,
+    "acimut": 13.364198552905961
+   }
+  }
+ },
+ "morfeo-2": {
+  "archivo": "morfeo-2.png",
+  "manos": {
+   "1": {
+    "estado": "AGARRADA",
+    "x": -0.1436,
+    "y": 0.2172,
+    "altura": 0.2277,
+    "pinza": 1,
+    "radio": 0.26037818649034333,
+    "acimut": -33.47035747567184
+   },
+   "2": {
+    "estado": "AGARRADA",
+    "x": 0.037,
+    "y": 0.2469,
+    "altura": 0.3534,
+    "pinza": 1,
+    "radio": 0.24965698468098185,
+    "acimut": 8.522822047776973
+   }
+  }
+ },
+ "morfeo-3": {
+  "archivo": "morfeo-3.png",
+  "manos": {
+   "1": {
+    "estado": "AGARRADA",
+    "x": -0.141,
+    "y": 0.2571,
+    "altura": 0.4814,
+    "pinza": 1,
+    "radio": 0.2932258685723345,
+    "acimut": -28.74145329960242
+   },
+   "2": {
+    "estado": "AGARRADA",
+    "x": 0.059,
+    "y": 0.2589,
+    "altura": 0.4655,
+    "pinza": 1,
+    "radio": 0.26553758679328243,
+    "acimut": 12.837739926120026
+   }
+  }
+ },
+ "desarrollo-planta": {
+  "archivo": "desarrollo-planta.png",
+  "manos": null
+ },
+ "desarrollo-monitor": {
+  "archivo": "desarrollo-monitor.png",
+  "manos": null
+ }
+}

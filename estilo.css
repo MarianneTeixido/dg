@@ -226,6 +226,17 @@ figure img, figure video {
   display: block; width: 100%; height: auto;
   border: 1px solid color-mix(in srgb, var(--acero) 14%, transparent);
 }
+
+/* Las tres del morfeo son UN trayecto, no tres imágenes, así que van en fila y
+ * siguen en fila en el teléfono: apiladas, la progresión se lee como tres poses
+ * distintas, que es justo lo contrario de lo que muestran.
+ *
+ * El recorte va en CSS y no en archivo: los PNG de `capturas/` son el cuadro
+ * completo que dibujó la página y ahí se quedan. `cover` contra una caja de 2:3
+ * deja la altura entera y se lleva sólo los lados, donde no hay más que negro. */
+.trio { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.4rem }
+.trio img { aspect-ratio: 2 / 3; object-fit: cover; object-position: 50% 50% }
+.trio figcaption { grid-column: 1 / -1 }
 figcaption {
   margin-top: 0.7rem; max-width: 56ch;
   font-family: var(--dato); font-size: 0.76rem; line-height: 1.6;
